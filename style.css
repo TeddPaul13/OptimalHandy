@@ -37,7 +37,7 @@ a:hover{
 .row{
 	width:100%;
 }
-.mowing{
+.mowing, .waste-removal{
 	border: 2px solid black;
 	margin: 55px 20px 20px;
 	background-image: url(https://images.unsplash.com/photo-1590820292118-e256c3ac2676?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGF3biUyMG1vd2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500);
@@ -68,7 +68,11 @@ a:hover{
 	position:realtive;
 	float: left;
 }
-p{
+.waste-removal {
+    height: 250px;
+
+}
+p,{
 	width:90%;
     color: aliceblue;
     height:150px;
