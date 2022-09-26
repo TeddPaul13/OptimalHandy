@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Optimal Handyman Services</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-md-12">
+            <aside class ="getquote">
+                <h1> Furniture </h1>
+                <p id="adpara">We offer exemplary Furniture Assemply Services at affordable rates.</p>
+            </aside>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-md-12">
+            <form class ="getquote">
+                <h2>Get a FREE Quote Today!</h2>
+                <p>
+                <label>Name:  
+                    <input type="text" name="Name" /></label></p>
+                    <p>
+                <label>Phone Number:  
+                    <input type="text" name="Phone" maxlength="10"/></label></p>
+                    <p>
+                <label>Email Address: 
+                    <input type="text" name="Email" /></label></p>
+                    <p>
+                <label>Home Address:  
+                    <input type="text" name="Address" /></label></p> <!--Make Address automatically drop down when users starts typing-->
+            <section class="job">
+                    <p>
+                <label for="job">What can we do for you?</label></p>
+                   <p> 
+                <textarea name="Job" cols="30" rows="5"> Enter details of the job </textarea> 
+                </p>    
+            </section>
+            <p>
+                <label>Completion Date: 
+                    <input type="datetime-local" name="Date" /></label></p> <!--Disable Past Dates-->
+                    <p>
+                <label> Upload Pictures:                                                           <!--Set size limit and the max number of pictures that can be uploaded-->
+                    <input type="file" name="Pictures" /></label></p>
+                    <input type="submit" name="upload" value="Upload"> <br><br>
+                <input type="submit" name="submit" value="Get Quote"/>
+
+            </form>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-md-12">
+            <aside class ="getquote">
+                <h1>Advertise Here</h1>
+            </aside>
+        </div>
+
+    
+        </div>
+    </div>
+</body>
+</html>
